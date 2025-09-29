@@ -1,16 +1,27 @@
-# React + Vite
+🎮 Hidden Poké Stat Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite game where you set a target and pick hidden Pokémon stats (HP, Attack, Defense, Sp. Atk, Sp. Def, Speed) one by one. Values stay hidden until the end—then your total is revealed.
 
-Currently, two official plugins are available:
+✨ What’s new
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Shows current total after every selection
 
-## React Compiler
+Win on ≥ target (equal counts as win)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+No repeat Pokémon during the 6 picks
 
-## Expanding the ESLint configuration
+Results reveal the best stat of each Pokémon you saw
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Filter by generation (exact ranges below)
+
+🧰 Tech
+
+React 18 + Vite
+
+Local JSON dataset for stats
+
+Sprites from PokéAPI sprites CDN
+
+▶️ Run locally
+npm install
+npm run dev
