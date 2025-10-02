@@ -1,0 +1,6 @@
+.pkc {
+  display: flex; gap: 16px; align-items: center; margin: 12px 0;
+
+  &__img { image-rendering: pixelated; }
+  &__name { margin: 0; }
+}

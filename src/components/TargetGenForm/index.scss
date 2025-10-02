@@ -1,0 +1,17 @@
+.tgf {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 12px;
+  align-items: end;
+
+  &__field { display: flex; flex-direction: column; gap: 6px; }
+  &__label { font-weight: 600; }
+  &__input {
+    padding: 8px 10px; border-radius: 10px;
+    border: 1px solid #334155; background: #0b1220; color: #e2e8f0;
+  }
+  &__start {
+    padding: 10px 14px; border-radius: 10px; font-weight: 600;
+    background: #2563eb; border: 1px solid #1d4ed8; color: #fff; cursor: pointer;
+  }
+}

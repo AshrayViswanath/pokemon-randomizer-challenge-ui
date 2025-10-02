@@ -1,0 +1,14 @@
+.rp {
+  &__meta { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
+  &__result { font-weight: 700;
+    &--win { color: #0a7a0a; }
+    &--lose { color: #b00020; }
+  }
+  &__title { margin-top: 12px; }
+  &__list { padding-left: 18px; }
+  &__item { margin-bottom: 8px; }
+  &__reset {
+    margin-top: 8px; padding: 10px 14px; border-radius: 10px; font-weight: 600;
+    background: #2563eb; border: 1px solid #1d4ed8; color: #fff; cursor: pointer;
+  }
+}

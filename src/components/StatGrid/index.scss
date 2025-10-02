@@ -1,0 +1,17 @@
+.sg {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+
+  &__btn {
+    display: flex; justify-content: space-between; align-items: center; gap: 8px;
+    padding: 12px 14px; border-radius: 12px; cursor: pointer;
+    border: 1px solid #334155; background: #0b1220; color: #e2e8f0;
+    transition: transform .04s ease, background .2s ease;
+
+    &:hover { transform: translateY(-1px); }
+    &.is-disabled, &:disabled { opacity: .6; cursor: not-allowed; }
+  }
+  &__label { font-weight: 600; }
+  &__value { font-family: monospace; opacity: .6; }
+}
